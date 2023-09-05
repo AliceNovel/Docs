@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* root */
+:root{
+    --primary: rgb(255, 220, 235);
+    --blown: rgb(30, 20, 10);
+    --link: rgb(220, 10, 20);
+    /* --primary: rgb(200 200 240); */
+}
+
+::selection{
+    background-color: rgba(255 255 255 / .8);
+}
+
+a{
+    color: var(--link);
+}
+/* root */
+
+html{
+    width: 100%;
+    background-color: var(--primary);
+    font-family: "游ゴシック", "Meiryo UI", sans-serif;
+    font-weight: 500;
+    color: var(--blown);
+}
+
+body{
+    margin: 0;
+}
+
+/* header */
+header{
+    background-color: rgba(0 0 0 / .16);
+    font-family: "Gabriola";
+}
+
+header p{
+    margin: 0;
+    padding: 0 7%;
+    font-size: 2.6em;
+
+    /* flex box */
+    display: flex;
+    justify-content: space-between;
+}
+
+header p a{
+    color: var(--blown);
+    text-decoration-line: none;
+}
+/* header */
+
+/* main */
+main{
+    margin: 1.0em 4%;
+    padding: 0.2em 3%;
+    background-color: rgba(255 255 255 / .5);
+}
+/* main */
