@@ -5,7 +5,12 @@
     --primary: rgb(255, 220, 235);
     --blown: rgb(30, 20, 10);
     --link: rgb(220, 10, 20);
-    /* --primary: rgb(200 200 240); */
+
+    color: var(--blown);
+    background-color: var(--primary);
+
+    font-family: "游ゴシック", "Meiryo UI", sans-serif;
+    font-weight: 500;
 }
 
 ::selection{
@@ -18,11 +23,7 @@ a{
 /* root */
 
 html{
-    font-family: "游ゴシック", "Meiryo UI", sans-serif;
     width: 100%;
-    background-color: var(--primary);
-    font-weight: 500;
-    color: var(--blown);
 }
 
 body{
