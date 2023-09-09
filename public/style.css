@@ -1,2 +1,52 @@
 @charset "UTF-8";
 
+:root{
+    --primary: #FFE8E8;
+    --blown: rgb(30, 20, 10);
+    --link: rgb(220, 10, 20);
+
+    color: var(--blown);
+    background-color: var(--primary);
+
+    font-family: /*"Segoe Print", */"游明朝", serif, sans-serif;
+    font-weight: 500;
+}
+
+a{
+    color: var(--link);
+}
+
+::selection{
+    background-color: rgba(255 255 255 / .8);
+}
+
+html{
+    width: 100%;
+}
+
+body{
+    padding: 0;
+    margin: 0;    
+}
+
+header{
+    background-color: #E02618;
+    font-size: 1.6em;
+    margin: 0 0 1.6em 0;
+    padding: 0.4em 8%;
+
+    /* flex box */
+    display: flex;
+    justify-content: space-between;
+}
+
+header a{
+    color: white;
+    padding: 0 0.1em;
+    text-decoration: none;
+}
+
+main{
+    margin: 0 5%;
+    padding: 0 5%;
+}
