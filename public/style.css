@@ -1,14 +1,14 @@
 @charset "UTF-8";
 
 :root{
-    --primary: #FFE8E8;
+    --primary: #FFEFEF;
     --blown: rgb(30, 20, 10);
     --link: rgb(220, 10, 20);
 
     color: var(--blown);
     background-color: var(--primary);
 
-    font-family: /*"Segoe Print", */"游明朝", serif, sans-serif;
+    font-family: "游明朝", serif, sans-serif;
     font-weight: 500;
 }
 
