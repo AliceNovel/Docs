@@ -7,9 +7,25 @@
    version="1.1"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+   <style>
+   @media (prefers-color-scheme: light)
+   {
+      #out{
+         fill: #7781cd;
+      }
+   }
+
+   @media (prefers-color-scheme: dark)
+   {
+      #out{
+         fill: #b0e0e6;
+      }
+   }
+   </style>
+   
   <g>
     <path
-       style="fill:#b0e0e6;"
+       id="out"
        d="M 46.83871,25.548387 C 52.370098,8.9542227 -21.88877,24.150181 -10.283496,37.237586 1.3217775,50.324991 25.291126,-21.583055 8.1544638,-18.076296 -8.9821982,-14.569536 41.307322,42.142552 46.83871,25.548387 Z"
        transform="matrix(3.8601077,0,0,3.8601077,72.68125,94.636573)" />
     <path
