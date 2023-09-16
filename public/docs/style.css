@@ -48,6 +48,12 @@ header a{
     padding: 0 0.1em;
     text-decoration: none;
 }
+
+@media (forced-colors: active){
+    header{
+        border-bottom: 1px ButtonText solid;
+    }
+}
 /* header */
 
 /* main */
@@ -55,5 +61,11 @@ main{
     margin: 1.4em 5%;
     padding: 0.2em 5%;
     background-color: rgba(255 255 255 / .5);
+}
+
+@media (forced-colors: active){
+    main{
+        border: 1px ButtonText solid;
+    }
 }
 /* main */
