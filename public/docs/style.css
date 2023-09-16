@@ -34,12 +34,8 @@ body{
 header{
     background-color: rgba(255 255 255 / .5);
     font-family: "游明朝";
-}
-
-header p{
     font-size: 1.6em;
-    margin: 0;
-    margin-bottom: 1.6em;
+    margin: 0 0 1.6em 0;
     padding: 0.4em 8%;
 
     /* flex box */
@@ -47,9 +43,10 @@ header p{
     justify-content: space-between;
 }
 
-header p a{
+header a{
     color: rgb(80, 60, 50);
-    text-decoration-line: none;
+    padding: 0 0.1em;
+    text-decoration: none;
 }
 /* header */
 
