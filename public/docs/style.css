@@ -69,4 +69,14 @@ main{
         border: 1px ButtonText solid;
     }
 }
+
+code, .code{
+    background-color: rgba(65, 35, 9, 0.2);
+    border-radius: 6px;
+    font-family: "Meiryo UI", "Arial", monospace;
+}
+
+.code p{
+    margin: 0;
+}
 /* main */
