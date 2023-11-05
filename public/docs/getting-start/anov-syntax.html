@@ -2,18 +2,18 @@
 <html lang="ja">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="description" content="Alice Novelのv0.8.0リリースノート" />
-    <meta name="keywords" content="LEC, Lemon Electric Computer, Lemon73, NEO, Alice Novel">
-    <meta name="author" content="copy;LEC/Lemon73">
-    <meta name="viewport" content="width=480">
-    <title>Anov構文 | Alice Novel</title>
-    <link rel="stylesheet" href="/docs/style.css" />
-    <link rel="icon" href="/favicon.svg">
+	<meta charset="utf-8">
+	<meta name="description" content="Alice Novelのv0.8.0リリースノート" />
+	<meta name="keywords" content="LEC, Lemon Electric Computer, Lemon73, NEO, Alice Novel">
+	<meta name="author" content="copy;LEC/Lemon73">
+	<meta name="viewport" content="width=480">
+	<title>anov構文 | Alice Novel</title>
+	<link rel="stylesheet" href="/docs/style.css" />
+	<link rel="icon" href="/favicon.svg">
 </head>
 
 <body>
-    <header>
+	<header>
 		<div>
 			<a href="/">Alice Novel</a>
 		</div>
@@ -21,48 +21,89 @@
 			<a href="https://github.com/Lemon73-Computing/Alice_Novel">Download</a>
 			<a href="/docs/">Docs</a>
 		</div>
-    </header>
+	</header>
 
-    <main>
-        <h1>Anov構文</h1>
-        <p>Alice Novel専用の構文</p>
-    </main>
+	<main>
+		<h1>anov構文</h1>
+		<p>Alice Novel専用の構文</p>
+	</main>
 
-    <main>
-        <h2>概要</h2>
-        <p>anov構文とは、Alice Novelで採用している記述形式です。</p>
-        <h4>もくじ</h4>
-        <ul>
-            <li><a href="#helloworld">Hello World! を表示する</a></li>
-            <li><a href="#character">キャラクターに喋らせてみる</a></li>
-            <li>画像ファイルの使い方 (記述予定)</li>
-			<li>音声ファイルの使い方 (記述予定)</li>
+	<main>
+		<h2>概要</h2>
+		<p>anov構文とは、Alice Novelで採用している記述形式です。</p>
+		<h4>もくじ</h4>
+		<ul>
+			<li><a href="#talk">セリフを表示する</a></li>
+			<li><a href="#character">キャラクターに喋らせてみる</a></li>
+			<li><a href="#img-bg">画像ファイルの使い方</a></li>
+			<li><a href="#audio-bg">音声ファイルの使い方</a></li>
 			<li>動画ファイルの使い方 (記述予定)</li>
-        </ul>
-    </main>
+		</ul>
+	</main>
 
-    <main id="helloworld">
-        <h2>Hello World! を表示する</h2>
-        <p>Alice Novelは、ノベル系のゲームを想定して作成されているため、喋り手の名称を表示する場所があります。(名前部分)</p>
-        <p>また、その喋り手が喋っている内容を表示する場所があります。(セリフ部分)</p>
-        <p>ここでは手始めにセリフ部分に「Hello World!」と表示する構文を書いてみましょう。</p>
-        <div class="code">
-            [Hello World!]
-        </div>
-        <p>このように、<code>[</code> <code>]</code>で囲むことで、文字を表示することが可能です。</p>
+	<main id="talk">
+		<h2>セリフを表示する</h2>
 
-    </main>
+		<h3>実装方法</h3>
+		<p><code>[</code> <code>]</code>で囲むことで、セリフを表示することが可能です。</p>
 
-    <main id="character">
-        <h2>キャラクターに喋らせてみる</h2>
-        <p>先述の通り、Alice Novelは、キャラクターの名前を表示することが可能です。</p>
-        <div class="code">
-            <p>- キャラクター1</p>
-            <p>[こんにちは!]</p>
-        </div>
-        <p>このように<code>- </code>に続けて名前を書くことでキャラクターの名前を表示できます。</p>
-    </main>
+		<h3>例</h3>
+		<div class="code">
+			[Hello World!]
+		</div><br />
+	</main>
 
+	<main id="character">
+		<h2>キャラクターに喋らせてみる</h2>
+
+		<h3>実装方法</h3>
+		<p><code>- </code>に続けて名前を書くことでキャラクター(語り手)の名前を表示できます。</p>
+
+		<h3>例</h3>
+		<div class="code">
+			<p>- キャラクター1</p>
+			<p>[こんにちは!]</p>
+		</div><br />
+	</main>
+
+	<main id="img-bg">
+		<h2>背景画像を表示する</h2>
+		<p>Alice Novelでは、背景画像の表示が可能です。</p>
+		<p>臨時ファイルを作成しないため、比較的高速な表示が可能です。</p>
+		<p>
+			※現時点(v0.9.0-rc3)ではキャラクターの顔画像や立ち絵を表示することはできません。
+			今後実装を予定しています。
+		</p>
+
+		<h3>実装方法</h3>
+		<p><code>> </code>に続けてファイル名を指定することで背景画像を表示できます。</p>
+		<p><code>> </code>のみ書くことで、既に表示されている背景画像を非表示にできます。</p>
+
+		<h3>例</h3>
+		<div class="code">
+			<p>> first-place.png</p>
+			<br />
+			<p>> </p>
+		</div><br />
+	</main>
+
+	<main id="audio-bg">
+		<h2>背景音楽を再生する</h2>
+		<p>Alice Novelでは、背景音楽の再生が可能です。</p>
+		<p>臨時ファイルを作成するため、画像と比較するとやや低速となっています。</p>
+		<p>※キャッシュ周りの仕様を変更し、より高速な再生ができるように改良する予定です。</p>
+
+		<h3>実装方法</h3>
+		<p><code>bgm: </code>に続けてファイル名を指定することで背景音楽を再生できます。</p>
+		<p><code>bgm: </code>のみ書くことで、すでに再生されている背景音楽を中断することが可能です。</p>
+
+		<h3>例</h3>
+		<div class="code">
+			<p>bgm: bgm.wav</p>
+			<br />
+			<p>bgm: </p>
+		</div><br />
+	</main>
 </body>
 
 </html>
