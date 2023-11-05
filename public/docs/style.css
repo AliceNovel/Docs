@@ -2,7 +2,13 @@
 
 /* root */
 :root{
-    --primary: #FFFFEF;
+    @media (prefers-color-scheme: light){
+        --primary: #FFFFEF;
+    }
+    @media (prefers-color-scheme: dark){
+        --primary: rgb(217 211 206);
+    }
+
     --blown: rgb(60, 40, 20);
     --link: rgb(40, 100, 40);
 
@@ -60,7 +66,12 @@ header a{
 main{
     margin: 1.4em 5%;
     padding: 0.2em 5%;
-    background-color: rgba(255, 255, 255, 0.4);
+    @media (prefers-color-scheme: light){
+        background-color: rgba(255, 255, 255, 0.4);
+    }
+    @media (prefers-color-scheme: dark){
+        background-color: #FFFFEF;
+    }
     box-shadow: 12px 8px rgba(65, 35, 9, 0.2);
 }
 
