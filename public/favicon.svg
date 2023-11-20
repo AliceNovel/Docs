@@ -3,33 +3,113 @@
 <svg
 	width="1024"
 	height="1024"
-	viewBox="0 0 270 270"
+	viewBox="0 0 1024 1024"
 	version="1.1"
 	xmlns="http://www.w3.org/2000/svg"
 	xmlns:svg="http://www.w3.org/2000/svg">
 	<style>
-		@media (prefers-color-scheme: light)
-		{
-			#out{
-			fill: #7781cd;
+		@media (prefers-color-scheme: light){
+			#light-green{
+				fill: #c2ff64;
+			}
+			#deep-green{
+				fill: #3cb371;
 			}
 		}
-
-		@media (prefers-color-scheme: dark)
-		{
-			#out{
-			fill: #b0e0e6;
+		@media (prefers-color-scheme: dark){
+			#light-green{
+				fill: #e8e8e8;
+			}
+			#deep-green{
+				fill: #d5eddc;
 			}
 		}
 	</style>
-	<g transform="matrix(1.18, 0, 0, 1.18, -32, -24)">
+	<defs>
+		<rect
+			x="355.39752"
+			y="598.14075"
+			width="882.45874"
+			height="288.34137" />
+	</defs>
+	<g>
+		<g transform="matrix(0.71000688,-0.2118513,0.13888377,1.0830342,79.361946,129.21267)"
+			id="light-green">
 		<path
-			id="out"
-			d="M 47,25.5 C 52.5,9 -22,24 -10,37 1.3,50 25,-21.5 8,-18 -9,-14.5 41,42 47,25.5 Z"
-			transform="matrix(3.8,0,0,3.8,73,95)" />
-		<path
-			style="fill:#f0f8ff"
-			d="M 71,107 C 67.5,112 -55,100 -57.5,94 -60,88 11.5,-11.5 18,-11 24.5,-10 75,102 71,107 Z"
-			transform="matrix(0.15,0.15,-0.15,0.15,137,140)" />
+			id="light-green"
+			d="m 65.025391,312.48242 c -6.304399,0 -11.38086,5.0745 -11.38086,11.37891 v 367.50781 c 0,2.99293 1.203894,5.66009 3.080078,7.6875 a 234.02591,102.59589 0 0 1 -1.402343,-9.38476 234.02591,102.59589 0 0 1 234.025394,-102.59571 234.02591,102.59589 0 0 1 232.28125,93.85352 234.02591,102.59589 0 0 1 232.41797,-91.8418 234.02591,102.59589 0 0 1 233.01953,93.19336 V 323.86133 c 0,-6.30441 -5.07647,-11.37891 -11.38086,-11.37891 z M 521.54688,701.88867 a 234.02591,102.59589 0 0 1 -0.12891,0.85938 h 0.25781 a 234.02591,102.59589 0 0 1 -0.1289,-0.85938 z" />
+		<ellipse
+			id="light-green"
+			cx="286.32968"
+			cy="311.811"
+			rx="234.02591"
+			ry="102.59589" />
+		<ellipse
+			id="light-green"
+			cx="751.02875"
+			cy="313.82272"
+			rx="234.02591"
+			ry="102.59589" />
+		</g>
+		<!--
+		<text
+			xml:space="preserve"
+			style="white-space:pre;shape-inside:url(#rect705);display:inline;fill:#228b22"
+			transform="translate(-174.53658,-1.5480903)">
+			<tspan
+				x="355.39844"
+				y="723.25779">
+				<tspan style="font-weight:normal;font-size:128px;font-family:'Segoe Script'">
+					Alice Novel
+				</tspan>
+			</tspan>
+		</text>
+		-->
+		<g>
+			<rect
+				id="deep-green"
+				width="80"
+				height="80"
+				x="120"
+				y="120"
+				ry="11" />
+			<rect
+				id="deep-green"
+				width="60"
+				height="60"
+				x="240"
+				y="130"
+				ry="8.5" />
+			<rect
+				id="deep-green"
+				width="40"
+				height="40"
+				x="340"
+				y="140"
+				ry="5.7" />
+		</g>
+		<g transform="matrix(-1,0,0,-1,1024,1024)">
+			<rect
+				id="deep-green"
+				width="80"
+				height="80"
+				x="120"
+				y="120"
+				ry="11" />
+			<rect
+				id="deep-green"
+				width="60"
+				height="60"
+				x="240"
+				y="130"
+				ry="8.5" />
+			<rect
+				id="deep-green"
+				width="40"
+				height="40"
+				x="340"
+				y="140"
+				ry="5.7" />
+		</g>
 	</g>
 </svg>
