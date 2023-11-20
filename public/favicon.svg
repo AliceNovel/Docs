@@ -10,7 +10,7 @@
 	<style>
 		@media (prefers-color-scheme: light){
 			#light-green{
-				fill: #c2ff64;
+				fill: #80d070;
 			}
 			#deep-green{
 				fill: #3cb371;
