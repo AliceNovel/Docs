@@ -9,7 +9,7 @@
     color: var(--blown);
     background-color: var(--primary);
 
-    font-family: "游明朝", serif, sans-serif;
+    font-family: "游明朝", "Noto Serif Japanese", "Noto Serif", serif, sans-serif;
     font-weight: 500;
 }
 
