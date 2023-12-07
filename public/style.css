@@ -1,24 +1,51 @@
 @charset "UTF-8";
 
 /* root */
+@media (prefers-color-scheme: light){
+    :root{
+        color: rgb(30, 20, 10);
+        background-color: #ffffff;
+    }
+
+    a{
+        color: rgb(40, 100, 40);
+    }
+
+    ::selection{
+        background-color: rgba(0, 255, 0, 0.2);
+    }
+
+    header{
+        background-color: #709020;
+    }
+}
+
+@media (prefers-color-scheme: dark){
+    :root{
+        color: #ffffff;
+        background-color: #181228;
+    }
+
+    a{
+        color: rgb(255, 110, 110);
+    }
+
+    ::selection{
+        background-color: rgba(255, 128, 128, 0.2);
+    }
+
+    header{
+        background-color: rgba(255, 124, 180, 0.4);
+    }
+
+    img{
+        opacity: 0.8;
+    }
+}
+
 :root{
-    --primary: #ffffff;
-    --blown: rgb(30, 20, 10);
-    --link: rgb(40, 100, 40);
-
-    color: var(--blown);
-    background-color: var(--primary);
-
     font-family: "游明朝", "Noto Serif Japanese", "Noto Serif", serif, sans-serif;
     font-weight: 500;
-}
-
-::selection{
-    background-color: rgba(0, 255, 0, 0.2);
-}
-
-a{
-    color: var(--link);
 }
 /* root */
 
@@ -32,7 +59,6 @@ body{
 
 /* header */
 header{
-    background-color: #709020;
     font-size: 1.6em;
     margin: 0 0 1.6em 0;
     padding: 0.4em 8%;
