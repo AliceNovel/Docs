@@ -1,12 +1,12 @@
 # Alice Novel_Docs
-Alice Novel公式サイトのレポジトリです。<br />
+This is repo is for Alice Novel Official site. / Alice Novel公式サイトのレポジトリです。<br />
 
 ## Alice Novel
-Alice NovelはLECによって開発されているノベル系ゲーム用のゲームエンジンです。<br />
-ソフトウェアのレポジトリはこちら: [Alice Novel / GitHub](https://github.com/Lemon73-Computing/Alice_Novel)<br />
+Alice Novle is game engine for novel game. It developed by LEC. / Alice NovelはLECによって開発されているノベル系ゲーム用のゲームエンジンです。<br />
+Software repo is here / ソフトウェアのレポジトリはこちら: [Alice Novel / GitHub](https://github.com/Lemon73-Computing/Alice_Novel)<br />
 
-### サイトに使われている技術
+### Tech
 ```
-デザイン: HTML/CSS
-公開場所: Firebase
+Design / デザイン: HTML/CSS
+Place / 公開場所: Firebase
 ```
