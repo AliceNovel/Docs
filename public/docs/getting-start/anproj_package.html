@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Alice Novelの公式ドキュメント" />
+	<meta name="keywords" content="LEC, Lemon Electric Computer, Lemon73, NEO, Alice Novel">
+	<meta name="author" content="copy;LEC/Lemon73">
+	<meta name="viewport" content="width=480">
+	<title>package.jsonの作成方法 | Alice Novel</title>
+	<link rel="stylesheet" href="/docs/style.css" />
+	<link rel="icon" href="/favicon.svg">
+</head>
+
+<body>
+	<header>
+		<div>
+			<a href="/">Alice Novel</a>
+		</div>
+		<div style="font-size: 0.8em; margin: 0.2em 0;">
+			<a href="https://github.com/Lemon73-Computing/Alice_Novel">Download</a>
+			<a href="/docs/">Docs</a>
+		</div>
+	</header>
+
+	<main>
+		<h1>package.jsonの作成方法</h1>
+		<p>package.jsonの作成方法に関する資料です。</p>
+	</main>
+
+    <main>
+        <h2>はじめに</h2>
+        <p>package.jsonはゲームの初期設定を決定する重要な役割を果たしています。</p>
+        <p>package.jsonはanprojファイル正式採用となるv0.9.0-rc1以降で利用可能です。</p>
+    </main>
+
+    <main>
+		<h2>game-name</h2>
+		<p>ゲームタイトルを設定可能です。</p>
+        <p>記述: 任意</p>
+        <p>初期設定: "" (タイトルなし)</p>
+        <p>利用可能バージョン: v0.9.0-rc1~</p>
+		<h3>例</h3>
+		<div class="code">
+			<p>{</p>
+			<p>&nbsp;&nbsp;"game-name: "Alice wonder land"</p>
+			<p>}</p>
+		</div><br />
+    </main>
+
+    <main>
+		<h2>first-read</h2>
+		<p>初回ロード時に読み込むファイルを設定できます。</p>
+        <p>記述: ?</p>
+        <p>初期設定: ?</p>
+        <p>利用可能バージョン: v0.9.0-rc1~</p>
+        <h3>例</h3>
+		<div class="code">
+			<p>{</p>
+			<p>&nbsp;&nbsp;"first-read": "story/main.anov"</p>
+			<p>}</p>
+		</div><br />
+	</main>
+</body>
+
+</html>
