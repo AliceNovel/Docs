@@ -3,25 +3,32 @@
 /* root */
 :root{
     @media (prefers-color-scheme: light){
-        --primary: #FFFFEF;
+        background-color: rgb(217 211 206);
+        color: rgb(60, 40, 20);
+        --link: rgb(40, 100, 40);
     }
     @media (prefers-color-scheme: dark){
-        --primary: rgb(217 211 206);
+        background-color: rgb(20, 20, 20);
+        color: rgb(230, 230, 230);
+        --link: rgb(200, 255, 200);
     }
 
-    --blown: rgb(60, 40, 20);
-    --link: rgb(40, 100, 40);
-
-    color: var(--blown);
-    background-color: var(--primary);
-
-    font-family: "游明朝", serif, "游ゴシック", sans-serif;
+    font-family: "游明朝", "游ゴシック", serif, sans-serif;
     font-weight: 500;
 }
 
-::selection{
-    color: rgba(255, 255, 255, 0.8);
-    background-color: rgba(61, 51, 45, 0.8);
+
+@media (prefers-color-scheme: light){
+    ::selection{
+    color: rgba(255, 255, 255, .8);
+    background-color: rgba(61, 51, 45, .8);
+    }
+}
+@media (prefers-color-scheme: dark){
+    ::selection{
+    color: rgba(24, 12, 12, .45);
+    background: rgba(255, 255, 255, .6);    
+    }
 }
 
 a{
@@ -39,7 +46,12 @@ body{
 
 /* header */
 header{
-    background-color: rgb(110, 100, 70);
+    @media (prefers-color-scheme: light){
+        background-color: rgb(110, 100, 70);
+    }
+    @media (prefers-color-scheme: dark){
+        background-color: #302c24;
+    }
     font-size: 1.6em;
     margin: 0 0 1.6em 0;
     padding: 0.4em 8%;
@@ -67,10 +79,10 @@ main{
     margin: 1.4em 5%;
     padding: 0.2em 5%;
     @media (prefers-color-scheme: light){
-        background-color: rgba(255, 255, 255, 0.4);
+        background-color: #FFFFEF;
     }
     @media (prefers-color-scheme: dark){
-        background-color: #FFFFEF;
+        background-color: #24221F;
     }
     box-shadow: 12px 8px rgba(65, 35, 9, 0.2);
 }
@@ -82,7 +94,12 @@ main{
 }
 
 code, .code{
-    background-color: rgba(65, 35, 9, 0.2);
+    @media (prefers-color-scheme: light){
+        background-color: rgba(65, 35, 9, 0.2);
+    }
+    @media (prefers-color-scheme: dark){
+        background-color: rgba(230, 230, 230, 0.2);
+    }
     border-radius: 6px;
     font-family: "Meiryo UI", "Arial", monospace;
 }
