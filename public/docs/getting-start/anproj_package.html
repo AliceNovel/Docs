@@ -37,7 +37,7 @@
     <main>
 		<h2>game-name</h2>
 		<p>ゲームタイトルを設定可能です。</p>
-        <p>記述: 任意</p>
+        <p>記述: 推奨</p>
         <p>初期設定: "" (タイトルなし)</p>
         <p>利用可能バージョン: v0.9.0-rc1~</p>
 		<h3>例</h3>
@@ -51,8 +51,8 @@
     <main>
 		<h2>first-read</h2>
 		<p>初回ロード時に読み込むファイルを設定できます。</p>
-        <p>記述: ?</p>
-        <p>初期設定: ?</p>
+        <p>記述: 推奨</p>
+        <p>初期設定: "main.anov"</p>
         <p>利用可能バージョン: v0.9.0-rc1~</p>
         <h3>例</h3>
 		<div class="code">
@@ -62,8 +62,28 @@
 		</div><br />
 	</main>
 
-	<main>
-		<p>追記予定</p>
+    <main>
+		<h2>root</h2>
+		<p>種類別のファイルのルートを設定できます。</p>
+        <p>記述: 任意</p>
+		<p>初期設定(root-image): "image/"</p>
+		<p>初期設定(root-background): "image/background/"</p>
+		<p>初期設定(root-story): "story/"</p>
+		<p>初期設定(root-data): "data/"</p>
+		<p>初期設定(root-chara): "character.json"</p>
+		<p>初期設定(root-save): "save/"</p>
+		<p>初期設定(root-audio): "audio/"</p>
+		<p>初期設定(root-movie): "movie/"</p>
+        <p>利用可能バージョン: ?</p>
+        <h3>例</h3>
+		<div class="code">
+			<p>{</p>
+			<p>&nbsp;&nbsp;"root-image": "img/"</p>
+			<p>&nbsp;&nbsp;"root-background": "img/bg/"</p>
+			<br />
+			<p>&nbsp;&nbsp;"root-story": "story/"</p>
+			<p>}</p>
+		</div><br />
 	</main>
 </body>
 
