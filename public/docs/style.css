@@ -10,7 +10,7 @@
     @media (prefers-color-scheme: dark){
         background-color: rgb(20, 20, 20);
         color: rgb(230, 230, 230);
-        --link: rgb(200, 255, 200);
+        --link: rgb(160, 255, 160);
     }
 
     font-family: "游明朝", "游ゴシック", serif, sans-serif;
@@ -80,11 +80,12 @@ main{
     padding: 0.2em 5%;
     @media (prefers-color-scheme: light){
         background-color: #FFFFEF;
+        box-shadow: 12px 8px rgba(65, 35, 9, 0.2);
     }
     @media (prefers-color-scheme: dark){
         background-color: #24221F;
+        box-shadow: 12px 8px rgba(170, 165, 160, 0.2);
     }
-    box-shadow: 12px 8px rgba(65, 35, 9, 0.2);
 }
 
 @media (forced-colors: active){
