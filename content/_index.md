@@ -1,12 +1,12 @@
 ---
-title: "Welcome to Doks"
+title: "Welcome to Alice Project Website"
 description: ""
-lead: "Congrats on setting up a new Doks project!"
-date: 2023-09-07T16:33:54+02:00
-lastmod: 2023-09-07T16:33:54+02:00
+lead: "This is the first step to create your original novel game!"
+date: 2024-12-08T23:56:00+08:00
+lastmod: 2024-12-08T23:56:00+08:00
 draft: false
 seo:
-  title: "Welcome to Doks" # custom title (optional)
+  title: "Welcome to Alice Project Website" # custom title (optional)
   description: "" # custom description (recommended)
   canonical: "" # custom canonical URL (optional)
   robots: "" # custom robot tags (optional)
