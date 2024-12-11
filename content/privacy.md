@@ -12,3 +12,5 @@ seo:
   canonical: "" # custom canonical URL (optional)
   robots: "" # custom robot tags (optional)
 ---
+
+<!-- Add the Privacy Policy from Lemon's Resting Area -->
