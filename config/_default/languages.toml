@@ -15,8 +15,8 @@
   [ja.params]
     languageISO = "JP"
     languageTag = "ja-JP"
-    footer = 'Gebaut mit <a class="text-muted" href="https://thulite.io/">Thulite</a>'
-    alertText = 'Neue Version ist da! <a class="alert-link stretched-link" href="https://getdoks.org/blog/doks-v0.5/">Doks v0.5</a>'
+    footer = 'Brought to you by <a class="text-muted" href="https://thulite.io/">Thulite</a>'
+    alertText = '<a class="alert-link stretched-link fw-normal" href="/blog/example-post/">Doks version 1.0 just shipped!</a>'
 
 [de]
   languageName = "German"

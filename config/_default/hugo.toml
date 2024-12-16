@@ -14,8 +14,8 @@ summarylength = 20 # 70 (default)
 
 # Multilingual
 defaultContentLanguage = "en"
-disableLanguages = ["de", "nl", "ja"]
-defaultContentLanguageInSubdir = false
+disableLanguages = ["de", "nl"]
+defaultContentLanguageInSubdir = true
 
 copyRight = "Copyright (c) 2023-2024 Alice Project"
 

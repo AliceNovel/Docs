@@ -30,13 +30,13 @@
 
 [[main]]
   name = "Docs"
-  url = "/en/docs/guides/example-guide/"
+  url = "/ja/docs/guides/example-guide/"
 # url = "/docs/1.0/prologue/introduction/"
   weight = 10
 
 [[main]]
   name = "Blog"
-  url = "/en/blog/"
+  url = "/ja/blog/"
   weight = 30
 
 # [[social]]
