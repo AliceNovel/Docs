@@ -2,7 +2,7 @@
 title: "キャラクターに喋らせてみる"
 description: ""
 summary: ""
-date: 2023-10-31T11:21:00+09:00
+date: 2023-10-31T23:21:00+09:00
 lastmod: 2024-12-16T23:23:00+09:00
 draft: false
 slug: "2"

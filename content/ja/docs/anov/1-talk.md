@@ -2,7 +2,7 @@
 title: "セリフを表示する"
 description: ""
 summary: ""
-date: 2023-10-31T11:21:00+09:00
+date: 2023-10-31T23:21:00+09:00
 lastmod: 2024-12-16T23:11:00+09:00
 draft: false
 slug: "1"
