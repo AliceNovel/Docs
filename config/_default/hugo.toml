@@ -84,3 +84,7 @@ copyRight = "Copyright (c) 2023-2024 Alice Project"
   hint = "photo"
   quality = 85
   resampleFilter = "Lanczos"
+
+[services]
+  [services.googleAnalytics]
+    id = 'G-94WLDEKKRG'
