@@ -1,14 +1,27 @@
-# Alice Novel Documentations
-This is the repository for Alice Novel Website. / Alice Novel公式サイトのレポジトリです。
+# Alice Project website
 
-## What is Alice Novel
-Alice Novle is game engine for novel game. It developed by Alice Project and LEC. / Alice NovelはAlice ProjectとLECによって開発されているノベル系ゲーム用のゲームエンジンです。
+Promoting [website](https://alicenovel.web.app) for the Alice Project and useful tools created by them. Build with the Hugo static site generator and [Doks theme](https://getdoks.org).
 
-## Alice Novel Links
-- [Alice Novel Website](https://alicenovel.web.app)
-- [Alice Novel Documentations](https://alicenovel.web.app/docs)
-- [Alice Novel GitHub](https://github.com/alicenovel)
+## How to use
 
-## Technology
-- Design / デザイン: HTML/CSS
-- Distribute / 公開場所: Firebase
+### Building and testing the site locally
+
+Here are the steps to build site on Ubuntu-based system (tested on KDE neon 24.04):
+
+Require commands:
+
+- `npm`
+- `golang`
+- `hugo`
+
+```sh
+# install dependencies
+npm i
+
+# build the site
+npm run dev
+```
+
+## License
+
+Licensed under the [MIT License](LICENSE).

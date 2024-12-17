@@ -1,0 +1,13 @@
+// Put your custom SCSS variables here
+
+// Light mode
+$primary: indigo;
+
+// Dark mode
+$link-color-dark: pink;
+$button-color-dark: pink;
+
+:root,
+::backdrop {
+  --sl-color-accent-high: pink;
+}
