@@ -1,4 +1,4 @@
-# Alice Novel website
+# Alice Project website
 
 Promoting [website](https://alicenovel.web.app) for the Alice Project and useful tools created by them. Build with the Hugo static site generator and [Doks theme](https://getdoks.org).
 
