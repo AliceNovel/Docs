@@ -26,6 +26,9 @@ Alice Project で開発している Anov 構文や Anproj 形式などの技術 
 
 公式の方法以外にも、サードパーティー製のツールを使うことも可能です。
 
+{{< tabs "create-new-site" >}}
+{{< tab "Alice Novel" >}}
+
 ### Alice Novel を使う
 
 Alice Novel は Alice Project が開発する最大のツールです。
@@ -41,6 +44,9 @@ Alice Novel は Alice Project が開発する最大のツールです。
 #### 利用方法
 
 Alice Novel は `.anproj` ファイルを読み込むことができます。`.anov` ファイルの読み込みは現時点ではできませんが、開発中です。
+
+{{< /tab >}}
+{{< tab "Alice Console" >}}
 
 ### Alice Console を使う
 
@@ -62,3 +68,6 @@ Alice Console は Alice Project が開発する CLI ツールです。
 # 例:
 ./AliceConsole main.anov
 ```
+
+{{< /tab >}}
+{{< /tabs >}}
