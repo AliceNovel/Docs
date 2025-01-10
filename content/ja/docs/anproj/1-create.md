@@ -37,19 +37,28 @@ Windows や Linux に搭載されている標準の ZIP Archiver を利用する
 1. ファイル全体を ZIP で圧縮します。(注意: ルートのファイルを圧縮するのではなく、ルートの位置で、全選択し、圧縮してください)
 1. `**.zip` を `**.anproj` に変更します。
 
-以上で、Anproj ファイルの作成ができました。これは、Alice Novel で開くことができます。
-
 {{< /tab >}}
 {{< tab "Alice Console" >}}
 
 ### Alice Console を使う
 
-> NOTE!
-> 
-> 開発予定の機能です。
+Alice Console の `pack` コマンドを利用します。
+
+1. `package.json` や `main.anov` などの必要なファイルを作成します。
+    ```sh
+    aliceconsole init
+    ```
+1. `AnprojTemplate` というディレクトリが作成されるため、このディレクトリに対して `pack` コマンドを実行します。
+    ```sh
+    aliceconsole pack <directory>
+    # 例: aliceconsole pack ./AnprojTemplate/
+    ```
+1. `AnprojTemplate.anproj` が生成されます。
 
 {{< /tab >}}
 {{< /tabs >}}
+
+以上で、Anproj ファイルの作成ができました。これは、Alice Novel で開くことができます。
 
 ### 関連リンク
 
@@ -57,5 +66,5 @@ Windows や Linux に搭載されている標準の ZIP Archiver を利用する
 
 ### 利用可能バージョン
 
-- Alice Novel: v0.9.0-rc1 以降
-- Alice Console: *未実装*
+- Alice Novel: *未実装*
+- Alice Console: 次期リリース (v0.3.0) 以降
