@@ -15,11 +15,9 @@ seo:
   robots: "" # custom robot tags (optional)
 ---
 
-<!--
-Alice Novel では、動画を再生することができます。
+You can play movies with Alice Novel.
 
-オープニングやエンディング、重要シーンなどのムービーとして利用できるように実装した機能です。
--->
+Therefore, you can direct luxury scenes such as Opening and Ending with this function.
 
 ### Usage
 

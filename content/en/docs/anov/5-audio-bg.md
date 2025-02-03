@@ -15,9 +15,9 @@ seo:
   robots: "" # custom robot tags (optional)
 ---
 
-<!--
-Alice Novel では、背景音楽の再生が可能です。
+You can play background-musics with Alice Novel.
 
+<!--
 臨時ファイルを作成するため、画像と比較するとやや低速となっています。
 
 ※キャッシュ周りの仕様を変更したことにより、臨時ファイル作成後はやや高速な再生ができるようになりました。
@@ -39,7 +39,7 @@ bgm: bgm.wav
 bgm: 
 ```
 
-### 利用可能バージョン
+### Version Information
 
 - Alice Novel: v0.9.0-rc2 or later
 - Alice Console: *Unsupported*

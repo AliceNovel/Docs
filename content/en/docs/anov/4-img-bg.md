@@ -15,9 +15,9 @@ seo:
   robots: "" # custom robot tags (optional)
 ---
 
-<!--
-Alice Novel では、背景画像の表示が可能です。
+You can display background-images with Alice Novel.
 
+<!--
 臨時ファイルを作成しないため、比較的高速な表示が可能です。
 
 (※現時点 (v0.9.3) ではキャラクターの顔画像や立ち絵を表示することはできません。今後実装を予定しています。)
