@@ -21,16 +21,16 @@ seo:
 
 - 状態: 任意
 
-| キー | 初期設定 |
-| - | - |
-| `root-image` | "image/" |
-| `root-background` | "image/background/" |
-| `root-story` | "story/" |
-| `root-data` | "data/" |
-| `root-chara` | "character.json" |
-| `root-save` | "save/" |
-| `root-audio` | "audio/" |
-| `root-movie` | "movie/" |
+| キー | 役割 | 初期設定 |
+| - | - | - |
+| `root-image` | "image/" | 画像ディレクトリ |
+| `root-background` | "image/background/" | 背景画像ディレクトリ |
+| `root-story` | "story/" | ストーリーファイルのディレクトリ |
+| `root-data` | "data/" | データディレクトリ |
+| `root-chara` | "character.json" | キャラクターデータのファイル |
+| `root-save` | "save/" | セーブ対象ディレクトリ |
+| `root-audio` | "audio/" | 音声ディレクトリ |
+| `root-movie` | "movie/" | 動画ディレクトリ |
 
 ### 例
 
